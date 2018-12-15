@@ -46,12 +46,12 @@ class Screen extends React.Component<State & Actions & NavigationScreenProps<Par
     />
   )
   renderName = () => (
-    <Text style={styles.title}>
+    <Text style={styles.name}>
       {this.props.name}
     </Text>
   )
   renderLocation = () => (
-    <Text style={styles.title}>
+    <Text style={styles.location}>
       {this.props.location}
     </Text>
   )

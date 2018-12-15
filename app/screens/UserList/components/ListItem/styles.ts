@@ -22,6 +22,7 @@ export default StyleSheet.create<Styles>({
   itemImage: {
     width: 40,
     height: 40,
+    borderRadius: 4,
   },
   itemBody: {
     height: 40,
@@ -30,10 +31,12 @@ export default StyleSheet.create<Styles>({
     justifyContent: 'space-between',
   },
   itemTitle: {
+    fontFamily: 'Roboto-Medium',
     fontSize: 16,
     color: '#000000DE',
   },
   itemDescription: {
+    fontFamily: 'Roboto-Regular',
     fontSize: 12,
     color: '#00000099',
   }
