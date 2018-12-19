@@ -1,14 +1,11 @@
-import {
-  createStackNavigator,
-  createAppContainer,
-} from 'react-navigation';
+import { createStackNavigator } from 'react-navigation';
 
 import {
   UserListScreen,
   UserDetailScreen,
 } from 'app/screens';
 
-const stackNavigator = createStackNavigator(
+export default createStackNavigator(
   {
     UserListScreen,
     UserDetailScreen,
@@ -19,4 +16,3 @@ const stackNavigator = createStackNavigator(
   },
 );
 
-export default createAppContainer(stackNavigator);

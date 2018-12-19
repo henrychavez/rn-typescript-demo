@@ -56,7 +56,7 @@ class Screen extends React.Component<State & Actions & NavigationScreenProps<Par
     </Text>
   )
   render = () => (
-    <SafeAreaView>
+    <SafeAreaView style={styles.screen}>
       {this.renderPicture()}
       {this.renderName()}
       {this.renderLocation()}
